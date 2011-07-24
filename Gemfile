@@ -27,6 +27,7 @@ gem 'sqlite3'
 gem 'rake', '~> 0.8.7'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'rspec-rails', :group => [:test, :development]
+gem 'sample_models', :group => [:test, :development]
 
 group :test do
   gem "factory_girl_rails"
